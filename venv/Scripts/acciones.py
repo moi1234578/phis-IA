@@ -1,7 +1,7 @@
 import os
 home = os.path.expanduser('~')
 def crear_carpeta_voz(nombre_carpeta):
-    escritorio = os.path.join(os.path.join(os.environ["USERPROFILE"]),"Desktop")
+    escritorio = os.path.join(home, "Desktop")
     ruta_final = os.path.join(escritorio,nombre_carpeta)
 
     try:
